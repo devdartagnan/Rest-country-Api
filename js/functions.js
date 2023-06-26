@@ -5,11 +5,11 @@ function setCountries(e) {
 
 function searchCountries(e) {
     let capitalize = capitalLetter(e)
-    let result = countriesList[0].filter((country) =>
-        country.name.common === capitalize || country.capital === capitalize ||
-        country.altSpellings === capitalize) //just working the first argument
+    let resultCountry = countriesList[0].filter((country) =>
+        country.name.common === capitalize)
+
     sectionOfCountries.innerHTML = ''
-    result.forEach(country => insertCountry(country))
+    resultCountry.forEach(country => insertCountry(country))
 }
 
 function filterCountries(e) {
@@ -70,7 +70,7 @@ function setLocal(e) {
     localStorage.setItem('countryDetail', JSON.stringify(defineCountryOnLocal[0]));
     goToDetailsPage();
 }
-function goBack(){
+function goBack() {
     window.location.href = './index.html'
 }
 getTheme()
