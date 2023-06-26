@@ -1,0 +1,118 @@
+.country-set {
+    background-color: transparent !important;
+    box-shadow: none;
+    display: grid;
+
+    gap: 28px;
+    max-width: none;
+    width: 100%;
+}
+
+.country-borders {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+.btn-borders {
+    background-color: var(--backGround);
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    color: var(--Dark-Gray);
+    height: 20px;
+    margin: 0.4rem;
+    width: 60px;
+}
+
+.goBack {
+    position: relative;
+}
+
+.fa-arrow-left {
+    position: absolute;
+    left: 32px;
+    top: 39.3px;
+}
+
+.btn-goBack {
+    background-color: var(--backGround);
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    color: var(--font-color);
+    cursor: pointer;
+    font-size: 14px;
+    height: 36px;
+    margin: 1.75rem 0 0 0;
+    padding: 0 0px 0 14px;
+    width: 120px;
+}
+
+.country-info {
+    padding: 0 16px 16px 16px;
+}
+
+.set-info {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4rem;
+}
+
+.country-sub-info {
+    column-gap: 32px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 1.5rem;
+}
+
+h2 {
+    margin: 3rem 0 0 0;
+}
+
+.title {
+    font-family: var(--Nunito-font);
+    font-weight: 800;
+
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.countries {
+    justify-content: flex-start;
+}
+
+@media screen and (min-width: 762px) {
+    h2 {
+        margin: 1.5rem 0 1.5rem 0;
+    }
+
+    .title {
+        font-size: 24px;
+
+    }
+
+    .country-set {
+        font-size: 16px;
+        grid-template-columns: 50% 50%;
+        ;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    h2 {
+        margin: 2.5rem 0 1.5rem 0;
+    }
+
+    .title {
+        font-size: 36px;
+
+    }
+
+    .country-set {
+        font-size: 18px;
+        max-width: 1440px;
+    }
+}
