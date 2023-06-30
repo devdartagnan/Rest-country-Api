@@ -8,7 +8,7 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 | :sparkles: Nome        | **Rest Country Api**
 | :label: Tecnologias | HTML, Js, Api, Css
 | :rocket: URL         | https://rest-country-api-woad.vercel.app/
-| 🔥: Desafio         | (https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
+| 🔥 Desafio         | (https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
 
 
 ### Screenshot
